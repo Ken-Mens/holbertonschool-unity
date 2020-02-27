@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
         {
             rb.AddForce(speed * Time.deltaTime, 0, 0);
         }
-     }
+    }
 
 
     void OnTriggerEnter(Collider other)
@@ -43,7 +43,7 @@ public class PlayerController : MonoBehaviour
         {
             score++;
             Debug.Log("Score: " + score);
-            Destroy (other.gameObject);
+            Destroy(other.gameObject);
         }
         if (other.tag == "Trap")
         {
@@ -54,7 +54,15 @@ public class PlayerController : MonoBehaviour
         {
             Debug.Log("You win!");
         }
-
     }
-
-}
+        void Update()
+        {
+            if (health == 0)
+            {
+                Debug.Log("Game Over!");
+                SceneManager.LoadScene("Maze", LoadSceneMode.Single);
+                score = 0;
+                health = 5;
+            }
+        }
+    }
