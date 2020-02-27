@@ -1,10 +1,15 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 ///<summary>Handles player control</summary>
 public class PlayerController : MonoBehaviour
 {
     public Rigidbody rb;
     public float speed = 500;
+    public int health = 5;
+    private int score = 0;
+
 
 
     private void Start()
@@ -30,4 +35,26 @@ public class PlayerController : MonoBehaviour
             rb.AddForce(speed * Time.deltaTime, 0, 0);
         }
      }
-  }
+
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Pickup")
+        {
+            score++;
+            Debug.Log("Score: " + score);
+            Destroy (other.gameObject);
+        }
+        if (other.tag == "Trap")
+        {
+            health--;
+            Debug.Log("Health: " + health);
+        }
+        if (other.tag == "Goal")
+        {
+            Debug.Log("You win!");
+        }
+
+    }
+
+}
