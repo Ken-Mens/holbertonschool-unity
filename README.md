@@ -1,4 +1,4 @@
-# 0x02. Unity - Scripting
+# 0x03. Unity - UI
 
 ## Learning Objectives
 
