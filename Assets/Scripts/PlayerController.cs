@@ -82,10 +82,11 @@ public class PlayerController : MonoBehaviour
         winLoseBG.color = Color.green;
         winLoseText.text = "You win!";
         winLoseText.color = Color.black;
+        StartCoroutine(LoadScene(3));
     }
 
 
-		void Update()
+    void Update()
 		{
 			if (health == 0)
 			{
@@ -94,8 +95,12 @@ public class PlayerController : MonoBehaviour
 				winLoseText.color = Color.white;
             StartCoroutine(LoadScene(3));
 			}
+        if (Input.GetKey("escape"))
+        {
+            SceneManager.LoadScene("Menu", LoadSceneMode.Single);
+        }
 
-		}
+    }
 
     private IEnumerator LoadScene(float seconds)
     {
