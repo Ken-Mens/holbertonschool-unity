@@ -1,4 +1,4 @@
-# 0x04. Unity - UI
+# 0x04. Unity - publishing
 
 ## Learning Objectives
 
