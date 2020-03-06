@@ -1,9 +1,8 @@
-<<<<<<< HEAD
-# 0x04. Unity - Publishing
+# 0x04 Unity - publishing
 
 ## Learning Objectives
 
-### General
+General
 
 - What are scripts in Unity and how are they created and used
 - How to control GameObjects with scripts
