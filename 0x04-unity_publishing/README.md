@@ -1,12 +1,14 @@
-# 0x04. Unity - Publishing
+# 0x03. Unity - UI
 
 ## Learning Objectives
 
 General
-- How to publish a build
-- How to reorder scenes in a build
-- How to build a standalone application for Windows, Mac, and Linux
-- How to edit a project’s Quality Settings
-- How to add an icon to your build
-- What is the profiler and how to use it to check your project’s performance
-- What to consider when developing for different platforms
+
+- What are scripts in Unity and how are they created and used
+- How to control GameObjects with scripts
+- What is an event function and how are the most common ones used
+- How to create and destroy GameObjects within scripts
+- How to use namespaces to organize classes
+- What are attributes and how to use them
+- How to use Debug.Log()
+- What is a vector
