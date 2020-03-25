@@ -19,5 +19,10 @@
 
 
 
-## Credits:
-- Skyboxes: Farland Skies - Cloudy Crown
+### Credits
+Farland Skies - Cloudy Crown - [Webpage](https://assetstore.unity.com/packages/2d/textures-materials/sky/farland-skies-cloudy-crown-60004)
+Kenney's Nature Pack Extended - [Webpage](https://kenney.nl/assets/nature-pack-extended)
+
+### Authors
+*Kenneth Mensah* - [Github](https://github.com/Ken-Mens) || [Twitter](https://twitter.com/Kmens5)
+
