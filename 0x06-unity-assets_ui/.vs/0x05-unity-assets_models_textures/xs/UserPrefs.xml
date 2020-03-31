@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{F1FDC3E7-6686-BE6D-06FE-6FB4C851438B}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TimerTrigger.cs">
+    <Files>
+      <File FileName="Assets/Scripts/WinTrigger.cs" Line="21" Column="6" />
+      <File FileName="Assets/Scripts/Timer.cs" Line="27" Column="6" />
+      <File FileName="Assets/Scripts/TimerTrigger.cs" Line="10" Column="9" />
+      <File FileName="Assets/Scripts/PlayerController.cs" />
+      <File FileName="Assets/Scripts/CameraController.cs" />
+      <File FileName="Assets/FarlandSkies/Demo/Scripts/Skybox/SkyboxChanger.cs" Line="2" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="0x05-unity-assets_models_textures" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="FarlandSkies" expanded="True">
+                <Node name="Demo" expanded="True">
+                  <Node name="Scripts" expanded="True">
+                    <Node name="Player" expanded="True" />
+                    <Node name="Skybox" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Scripts" expanded="True">
+                <Node name="TimerTrigger.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="bc638f3b-2cbc-49b3-bf18-3065aec5f5cf" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
