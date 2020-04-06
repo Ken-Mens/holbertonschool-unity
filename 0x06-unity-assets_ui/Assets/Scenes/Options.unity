@@ -204,7 +204,7 @@ GameObject:
   m_Component:
   - component: {fileID: 143334344}
   m_Layer: 5
-  m_Name: Handle Slide Area
+  m_Name: Handle Slide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1465,7 +1465,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1165204509}
   m_Layer: 5
-  m_Name: Handle Slide Area
+  m_Name: Handle Slide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2295,7 +2295,7 @@ PrefabInstance:
     - target: {fileID: 2787727976922306004, guid: 9df19bc526ca14148adea53d1b846e57,
         type: 3}
       propertyPath: m_Name
-      value: BackButton
+      value: BackText
       objectReference: {fileID: 0}
     - target: {fileID: 2787727976922306005, guid: 9df19bc526ca14148adea53d1b846e57,
         type: 3}
