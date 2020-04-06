@@ -839,18 +839,6 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: PAUSED
---- !u!114 &5396732284224740076
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5702941236545048858}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1799601bcc4374f858e2b694ac757630, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &5396732284442497886
 GameObject:
   m_ObjectHideFlags: 0
@@ -930,6 +918,18 @@ MonoBehaviour:
   m_Text: 'Resume
 
 '
+--- !u!114 &5396732284224740076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5702941236545048858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1799601bcc4374f858e2b694ac757630, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &5396732284224740079
 PrefabInstance:
   m_ObjectHideFlags: 0
