@@ -4148,7 +4148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8495de4c9bb274254b5d56ae69a52c3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PausedCanvas: {fileID: 0}
+  PausedCanvas: {fileID: 1549352712}
 --- !u!4 &1495497771 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4732003041133876, guid: 7b0c64cf9232247df818acef48368258,
@@ -4507,6 +4507,19 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 5396732283332841819}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1549352713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549352712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8495de4c9bb274254b5d56ae69a52c3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PausedCanvas: {fileID: 1549352712}
 --- !u!1 &1562109283 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: 652c9245689d47047968c2020f300db3,
@@ -5694,7 +5707,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2079155079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6238,7 +6251,8 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5396732284224740076, guid: 710e89c944f64438f8ba6a8a63653221, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 710e89c944f64438f8ba6a8a63653221, type: 3}
 --- !u!1 &5396732283332841820 stripped
 GameObject:
@@ -6258,4 +6272,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8495de4c9bb274254b5d56ae69a52c3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PausedCanvas: {fileID: 0}
+  PausedCanvas: {fileID: 1549352712}
