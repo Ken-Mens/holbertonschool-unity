@@ -90,6 +90,7 @@ GameObject:
   - component: {fileID: 5396732282836774890}
   - component: {fileID: 5396732282836774891}
   - component: {fileID: 5396732282836774900}
+  - component: {fileID: 1080564803472010691}
   m_Layer: 5
   m_Name: RestartButton
   m_TagString: Untagged
@@ -196,7 +197,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5396732282836774891}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1593815398470076018}
+        m_MethodName: Restart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1080564803472010691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5396732282836774902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8495de4c9bb274254b5d56ae69a52c3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PausedCanvas: {fileID: 5396732283934183798}
 --- !u!1 &5396732283179846585
 GameObject:
   m_ObjectHideFlags: 0
@@ -209,6 +234,7 @@ GameObject:
   - component: {fileID: 5396732283179846589}
   - component: {fileID: 5396732283179846590}
   - component: {fileID: 5396732283179846591}
+  - component: {fileID: 6600712673920319404}
   m_Layer: 5
   m_Name: MenuButton
   m_TagString: Untagged
@@ -315,7 +341,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5396732283179846590}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1593815398470076018}
+        m_MethodName: MainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &6600712673920319404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5396732283179846585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8495de4c9bb274254b5d56ae69a52c3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PausedCanvas: {fileID: 5396732283934183798}
 --- !u!1 &5396732283301222979
 GameObject:
   m_ObjectHideFlags: 0
@@ -328,6 +378,7 @@ GameObject:
   - component: {fileID: 5396732283301222983}
   - component: {fileID: 5396732283301222976}
   - component: {fileID: 5396732283301222977}
+  - component: {fileID: 8969678114904020639}
   m_Layer: 5
   m_Name: ResumeButton
   m_TagString: Untagged
@@ -434,7 +485,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5396732283301222976}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1593815398470076018}
+        m_MethodName: Resume
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8969678114904020639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5396732283301222979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8495de4c9bb274254b5d56ae69a52c3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PausedCanvas: {fileID: 5396732283934183798}
 --- !u!1 &5396732283525947803
 GameObject:
   m_ObjectHideFlags: 0
@@ -598,13 +673,14 @@ GameObject:
   - component: {fileID: 5396732283934183787}
   - component: {fileID: 5396732283934183796}
   - component: {fileID: 5396732283934183797}
+  - component: {fileID: 1593815398470076018}
   m_Layer: 5
   m_Name: PauseCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &5396732283934183786
 RectTransform:
   m_ObjectHideFlags: 0
@@ -685,6 +761,19 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &1593815398470076018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5396732283934183798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8495de4c9bb274254b5d56ae69a52c3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PausedCanvas: {fileID: 5396732283934183798}
 --- !u!1 &5396732284095958613
 GameObject:
   m_ObjectHideFlags: 0
@@ -930,6 +1019,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1799601bcc4374f858e2b694ac757630, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3891523157010172068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5702941236545048858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8495de4c9bb274254b5d56ae69a52c3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PausedCanvas: {fileID: 5396732283934183798}
 --- !u!1001 &5396732284224740079
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1066,7 +1168,17 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 5396732284224740076}
+      objectReference: {fileID: 3891523157010172068}
+    - target: {fileID: 414860844944903159, guid: d60428be59052466d91fbc97b6994d7a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Options
+      objectReference: {fileID: 0}
+    - target: {fileID: 414860844944903159, guid: d60428be59052466d91fbc97b6994d7a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d60428be59052466d91fbc97b6994d7a, type: 3}
 --- !u!224 &5702941236545048857 stripped
