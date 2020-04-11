@@ -425,9 +425,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Menu
-
-'
+  m_Text: Menu
 --- !u!1 &7249019979365098155
 GameObject:
   m_ObjectHideFlags: 0
