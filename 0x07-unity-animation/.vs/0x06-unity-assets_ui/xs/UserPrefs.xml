@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{D99EA84A-75FE-1111-FB53-77AE0B4FEB39}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WinTrigger.cs">
+    <Files>
+      <File FileName="Assets/Scripts/WinTrigger.cs" Line="25" Column="6" />
+      <File FileName="Assets/Scripts/TimerTrigger.cs" />
+      <File FileName="Assets/Scripts/Timer.cs" />
+      <File FileName="Assets/Scripts/OptionsMenu.cs" />
+      <File FileName="Assets/Scripts/MainMenu.cs" />
+      <File FileName="Assets/Scripts/PauseMenu.cs" />
+      <File FileName="Assets/Scripts/CameraController.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="0x06-unity-assets_ui" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="WinTrigger.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="fdc5b2e3-75bb-49ac-924c-623e0f541e69" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

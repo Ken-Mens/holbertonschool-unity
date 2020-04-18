@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{9E1AFDAB-6BF5-3B06-167E-F93597FB41DE}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TimerTrigger.cs">
+    <Files>
+      <File FileName="Assets/Scripts/CutsceneController.cs" Line="25" Column="36" />
+      <File FileName="Assets/Scripts/CameraController.cs" />
+      <File FileName="Assets/Scripts/TimerTrigger.cs" Line="16" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="0x07-unity-animation" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="TimerTrigger.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2f0f6cdc-7789-4a43-89af-9411114bb1f9" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

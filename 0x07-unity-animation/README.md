@@ -1,0 +1,27 @@
+# 0x06. Unity - Assets: UI
+
+
+## Learning Objectives
+
+
+### General
+- What is an Asset and how to import and use them
+- How to import images to use in a user interface
+- What is a Sprite
+- How is a Sprite different from a Texture
+- How to use the Sprite Editor
+- What is 9-slicing
+- How to create a Slider
+- How to create a Toggle
+- How to swap button images
+- How to use PlayerPrefs and what are they used for
+
+
+
+### Credits
+Farland Skies - Cloudy Crown - [Webpage](https://assetstore.unity.com/packages/2d/textures-materials/sky/farland-skies-cloudy-crown-60004)
+Kenney's Nature Pack Extended - [Webpage](https://kenney.nl/assets/nature-pack-extended)
+
+### Authors
+*Kenneth Mensah* - [Github](https://github.com/Ken-Mens) || [Twitter](https://twitter.com/Kmens5)
+
