@@ -1,27 +1,25 @@
 ﻿using System.Collections;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class CutsceneController : MonoBehaviour
 {
-    Animator animat;
+    Animator ani;
     public GameObject mainCamera;
-    public GameObject player;
-    public GameObject timerCanvas;
-    public GameObject cutCamera;
+    public GameObject Player;
+    public GameObject TimerCanvas;
+    public GameObject CutSCamera;
 
     void Awake()
     {
-        animat = GetComponent<Animator>();
+        ani = GetComponent<Animator>();
     }
 
-    public void transition()
+    void transition()
     {
         mainCamera.SetActive(true);
-        timerCanvas.SetActive(true);
-        player.gameObject.GetComponent<PlayerController>().enabled = true;
-        //cutCamera.gameObject.GetComponent<CutsceneController>().enabled = false;
-        cutCamera.SetActive(false);
+        TimerCanvas.SetActive(true);
+        Player.gameObject.GetComponent<PlayerController>().enabled = true;
+        CutSCamera.SetActive(false);
     }
 }
