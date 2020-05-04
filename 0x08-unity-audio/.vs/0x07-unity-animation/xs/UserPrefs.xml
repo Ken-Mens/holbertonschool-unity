@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{9E1AFDAB-6BF5-3B06-167E-F93597FB41DE}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerController.cs">
+    <Files>
+      <File FileName="Assets/Scripts/CameraController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/TimerTrigger.cs" />
+      <File FileName="Assets/Scripts/CutsceneController.cs" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="16" Column="27" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="0x07-unity-animation" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="PlayerController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b78e6368-81d9-4473-9901-fae3e8db3af3" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
