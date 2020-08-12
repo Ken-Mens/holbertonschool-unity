@@ -1,14 +1,14 @@
-# 0x04 Unity - publishing
+# Unity
+
+![alt text](https://e7.pngegg.com/pngimages/815/931/png-clipart-unity-technologies-information-technology-game-engine-technology-angle-electronics.png)
 
 ## Learning Objectives
 
 General
 
-- What are scripts in Unity and how are they created and used
-- How to control GameObjects with scripts
-- What is an event function and how are the most common ones used
-- How to create and destroy GameObjects within scripts
-- How to use namespaces to organize classes
-- What are attributes and how to use them
-- How to use Debug.Log()
-- What is a vector
+- Understanding how to use Unity
+- Writing C # scripts to accompany Unity projects
+- Develop interesting Unity projects such a virtual business card, escape room, etc...
+
+### Authors
+*Kenneth Mensah* - [Github](https://github.com/Ken-Mens) || [Twitter](https://twitter.com/Kmens5)
