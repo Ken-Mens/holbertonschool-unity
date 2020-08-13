@@ -8,7 +8,8 @@ General
 
 - Understanding how to use Unity
 - Writing C # scripts to accompany Unity projects
-- Develop interesting Unity projects such a virtual business card, escape room, etc...
+- Develop showcase Unity projects such a virtual business card, escape room, virtual slingshot
+- Stay up to date on current practices in AR/VR field.
 
 ### Authors
 *Kenneth Mensah* - [Github](https://github.com/Ken-Mens) || [Twitter](https://twitter.com/Kmens5)
