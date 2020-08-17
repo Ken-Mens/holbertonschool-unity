@@ -12,4 +12,4 @@ General
 - Stay up to date on current practices in AR/VR field.
 
 ### Authors
-*Kenneth Mensah* - [Github](https://github.com/Ken-Mens) || [Twitter](https://twitter.com/Kmens5)
+*Kenneth Mensah* - [Github](https://github.com/Ken-Mens) || [Twitter](https://twitter.com/Kmens5) || [LinkedIn](https://www.linkedin.com/in/kenneth-mensah-07612238/)
