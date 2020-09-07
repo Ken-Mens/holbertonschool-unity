@@ -1,5 +1,7 @@
 # 0x0D. Unity - ShaderGraph
 
+![alt text](https://realtimevfx.com/uploads/default/original/2X/f/f80c1a334908d00e091da7ba5af53e0acb3b0ac3.png)
+
 ## What you should learn
 
 What is rendering
