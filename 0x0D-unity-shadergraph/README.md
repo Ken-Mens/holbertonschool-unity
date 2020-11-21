@@ -14,6 +14,9 @@
 - What is UV mapping
 - What is vertex animation
 
+## How to Install
+Open Unity in latest version and import Package with following link: https://drive.google.com/file/d/18B1S9x127dKmEis1dxhr8RmmVdAOlOLI/view?usp=sharing.
+
 ### Task 0. Glow up
 Material and shader that makes an untextured 3D GameObject glow around the edges.
 You can change the following properties of the shader in the Inspector window:
