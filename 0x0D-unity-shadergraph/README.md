@@ -23,7 +23,7 @@ You can change the following properties of the shader in the Inspector window:
 - Glow strength
 
 ### Task 1. Pulse
-Based on the previous shader, create a new shader where the glow pulses / fades in and out.
+Based on the previous shader, created a new shader where the glow pulses / fades in and out.
 
 You can change the following properties of the shader in the Inspector window:
 
@@ -35,9 +35,34 @@ You can change the following properties of the shader in the Inspector window:
 
 ### Task 2. Mr. Stark, I don't feel so good
 
-Create a shader that simulates a disintegrating or dissolving effect.
+Created a shader that simulates a disintegrating or dissolving effect.
 
 You can change the following properties of the shader in the Inspector window:
 - Base color
 - Disintegration / dissolving speed
 - Scale of disintegrating fragments
+
+### Task 3. Iceman
+
+Created a shader that makes an object look like ice. The object should be partially transparent.
+
+You can change the following properties of the shader in the Inspector window:
+
+- Base color
+
+### Task 4. Hey Cortana, what's UV positioning? 
+
+Created a shader that applies a flickering hologram effect to an object. You must use a Texture in this shader.
+
+You can change the following properties of the shader in the Inspector window:
+- Base color
+- Texture
+
+### Task 5. Sine of the sea
+
+Created an animated shader that simulates the appearance of water.
+
+You can change the following properties of the shader in the Inspector window:
+- Color(s)
+- Wave size
+- Wave frequency
