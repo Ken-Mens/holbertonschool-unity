@@ -1,6 +1,18 @@
 # 0x00. Unity - User Interface
 
-## Background Context
+![alt text](https://www.pluralsight.com/content/pluralsight/en/blog/tutorials/mas/mastering-basics-unity-user-interface/_jcr_content/main/hero_blog_block/image-res.img.jpg/1527709369945.jpg)
 
-This project will go over the basics of Unity’s user interface. For this project, import Unity’s Standard Assets package from the Asset Store. Open one of the sample scenes and use it to play around with the windows, layouts, options, navigation methods, etc. covered in the reading. It’s necessary to get a feel for what tools are at your disposal and what they do before you use them! It will also make it easier to answer this project’s tasks.
-
+## Learning Objectives
+How to navigate the Unity interface
+What is the Scene view
+What is the Game view
+What is the Hierarchy window
+What is the Project window
+What is the Inspector window
+What is the Console window
+What is the Toolbar
+What are the Play Buttons
+What are the Transform tools
+What are the Collab, Services, Account buttons
+What are the Layers and Layouts dropdowns
+What are Gizmos
